@@ -26,7 +26,7 @@ export const projectData = [
         github: 'https://github.com/abhirupkumar/docwhisperer',
     },
     {
-        image: '/work/4.png',
+        image: '/work/4.jpg',
         category: 'React Native',
         name: 'Instagram Clone',
         description: "This Instagram Clone is build using React Native(Expo). Users can post any picture/gif and can even comment to theirs as well as other's post. They can even set their profile image and username.",
@@ -36,7 +36,7 @@ export const projectData = [
     {
         image: '/work/6.jpg',
         category: 'next js',
-        name: 'Netflic Clone',
+        name: 'Netflix Clone',
         description: "Replicated responsive Netflix's UI, making it familiar and intuitive for users. Curated a vast collection of movies and TV shows across various genres for an immersive viewing",
         link: 'https://netflix-akb.vercel.app/',
         github: 'https://github.com/abhirupkumar/Netflix-Clone',
