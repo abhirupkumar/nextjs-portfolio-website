@@ -1,13 +1,4 @@
 "use client";
-
-import { GanttChartSquare, Blocks, Gem } from 'lucide-react';
-import {
-    Card,
-    CardContent,
-    CardDescription,
-    CardHeader,
-    CardTitle,
-} from '@/components/ui/card';
 import TagCloud from 'TagCloud';
 import { useEffect, useRef } from 'react';
 
@@ -38,7 +29,7 @@ const Skills = () => {
         return () => {
             TagCloud(container, texts, options);
         };
-    }, []);
+    }, [containerRef]);
 
     return (
         <section className="mb-12">
