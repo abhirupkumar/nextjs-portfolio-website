@@ -26,9 +26,7 @@ const Skills = () => {
             lockY: true,
         };
 
-        return () => {
-            TagCloud(container, texts, options);
-        };
+        TagCloud(container, texts, options);
     }, [containerRef]);
 
     return (

@@ -6,7 +6,6 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 
 // theme providers
-import { ThemeProvider } from '@/components/ThemeProvider';
 import StarsCanvas from '@/components/StarBackground';
 
 const outfit = Outfit({ subsets: ['latin'] });
