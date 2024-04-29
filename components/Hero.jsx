@@ -25,7 +25,7 @@ const Hero = () => {
       scale: [0, 1],
       opacity: [0, 1],
       transition: {
-        duration: 1,
+        duration: 0.5,
         ease: 'easeInOut',
       },
     },
@@ -85,7 +85,7 @@ const Hero = () => {
 
               {/* badge 2 */}
               <Badge
-                containerStyles="absolute lg:top-[62%] top-[88%] -left-[3rem]"
+                containerStyles="absolute lg:top-[70%] top-[88%] -left-[4rem]"
                 icon={<FaDev className="text-black" />}
                 badgeText="Full Stack Developer"
               />

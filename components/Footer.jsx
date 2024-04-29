@@ -2,7 +2,7 @@ import Socials from './Socials';
 
 const Footer = () => {
   return (
-    <footer className="bg-secondary py-12">
+    <div className="backdrop-blur-[2px] inset-x-0 py-12">
       <div className="container mx-auto">
         <div className="flex flex-col items-center justify-between">
           {/* socials */}
@@ -12,11 +12,11 @@ const Footer = () => {
           />
           {/* copyright */}
           <div className="text-muted-foreground">
-            Copyright © Ryan Davis. All rights reserved.
+            Copyright © Abhirup Kumar Bhowmick. All rights reserved.
           </div>
         </div>
       </div>
-    </footer>
+    </div>
   );
 };
 

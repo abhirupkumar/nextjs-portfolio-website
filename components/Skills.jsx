@@ -27,7 +27,7 @@ const Skills = () => {
         const options = {
             radius: 300,
             direction: 138,
-            maxSpeed: 'normal',
+            maxSpeed: 'fast',
             initSpeed: 'normal',
             keep: true,
             loop: true,
@@ -43,13 +43,13 @@ const Skills = () => {
     return (
         <section className="mb-12">
             <div className="container mx-auto">
-                    <h2 className="section-title text-center mx-auto">
-                        Skills
-                    </h2>
+                <h2 className="section-title text-center mx-auto">
+                    Skills
+                </h2>
 
-                    <div className="relative top-0 w-full h-full flex justify-center items-center">
-                        <span className='tagcloud' ref={containerRef}></span>
-                    </div>
+                <div className="relative top-0 w-full h-full flex justify-center items-center">
+                    <span className='tagcloud' ref={containerRef}></span>
+                </div>
             </div>
         </section>
     );

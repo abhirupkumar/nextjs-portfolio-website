@@ -11,14 +11,9 @@ const Contact = () => {
         <div className="grid xl:grid-cols-2 pt-12 xl:h-[480px] mb-6 xl:mb-24">
           {/* text */}
           <div className="flex flex-col justify-center">
-            <div className="flex items-center gap-x-4 text-primary text-lg mb-4">
-              <span className="w-[30px] h-[2px] bg-primary"></span>
-              Say Hello 👋
-            </div>
-            <h1 className="h1 max-w-md mb-8">Let's Work Together.</h1>
+            <h1 className="h1 max-w-lg mb-8">Let's Work Together.</h1>
             <p className="subtitle max-w-[480px]">
-              I'm always open to discussing product design work or partnership
-              opportunities.
+              I'm open to all opportunities.
             </p>
           </div>
 
@@ -35,19 +30,19 @@ const Contact = () => {
             {/* mail */}
             <div className="flex items-center gap-x-8">
               <MailIcon size={18} className="text-primary" />
-              <div>youremail@gmail.com</div>
+              <div>abhirupkumar2003@gmail.com</div>
             </div>
 
             {/* address */}
             <div className="flex items-center gap-x-8">
               <HomeIcon size={18} className="text-primary" />
-              <div>8420 Pine Avenue, Meadowvitle MC 842</div>
+              <div>Ganganagar, Kol-700132, WB, India</div>
             </div>
 
             {/* phone */}
             <div className="flex items-center gap-x-8">
               <PhoneCall size={18} className="text-primary" />
-              <div>+44 123 456 7890</div>
+              <div>+91 700 388 9430</div>
             </div>
           </div>
           <Form />
