@@ -108,11 +108,7 @@
     @apply inline-block top-0 left-0 font-sans font-semibold tracking-tighter text-xl w-min;
   }
 
-  .tagcloud:nth-child(2) {
-    @apply hidden;
-  }
-
-  .tagcloud:nth-child(3) {
+  .tagcloud:not(:first-child) {
     @apply hidden;
   }
 

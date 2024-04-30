@@ -1,10 +1,12 @@
 "use client";
+import useScreenSize from '@/hooks/useScreenSize';
 import TagCloud from 'TagCloud';
 import { useEffect, useRef } from 'react';
 
 const Skills = () => {
 
     const containerRef = useRef(null);
+    const screenSize = useScreenSize();
 
     useEffect(() => {
         const container = containerRef.current;
@@ -15,8 +17,15 @@ const Skills = () => {
             'MongoDB', 'Firebase', 'Prisma', 'REST API', 'Open AI API', 'Langchain', 'Sanity.io',
             'Git', 'Github', 'Rollup',
         ];
+        let radius = 300;
+        if (screenSize.width < 300) radius = 120;
+        else if (screenSize.width < 440) radius = 150;
+        else if (screenSize.width < 640) radius = 180;
+        else if (screenSize.width < 768) radius = 250;
+        else radius = 300;
+
         const options = {
-            radius: 300,
+            radius: radius,
             direction: 138,
             maxSpeed: 'fast',
             initSpeed: 'normal',
@@ -27,7 +36,7 @@ const Skills = () => {
         };
 
         TagCloud(container, texts, options);
-    }, [containerRef]);
+    }, [containerRef, screenSize]);
 
     return (
         <section className="mb-12">
