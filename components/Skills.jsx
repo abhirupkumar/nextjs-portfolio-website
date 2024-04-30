@@ -39,7 +39,7 @@ const Skills = () => {
     }, [containerRef, screenSize]);
 
     return (
-        <section className="mb-12">
+        <section className="mb-12 overflow-x-hidden">
             <div className="container mx-auto">
                 <h2 className="section-title text-center mx-auto">
                     Skills
