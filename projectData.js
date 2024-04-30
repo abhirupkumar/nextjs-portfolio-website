@@ -34,7 +34,7 @@ export const projectData = [
         github: 'https://github.com/abhirupkumar/Instagram-clone',
     },
     {
-        image: '/work/6.jpg',
+        image: '/work/6.png',
         category: 'next js',
         name: 'Netflix Clone',
         description: "Replicated responsive Netflix's UI, making it familiar and intuitive for users. Curated a vast collection of movies and TV shows across various genres for an immersive viewing",
