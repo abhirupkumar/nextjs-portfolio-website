@@ -6,7 +6,7 @@ import Work from '@/components/Work';
 import Cta from '@/components/Cta';
 import Skills from '@/components/Skills';
 
-export default function Home() {
+export default async function Home() {
   return (
     <main>
       <Hero />

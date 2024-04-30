@@ -7,22 +7,20 @@ const useScreenSize = () => {
     });
 
     useEffect(() => {
-        if (window !== 'undefined') {
-            const handleResize = () => {
-                setScreenSize({
-                    width: window.innerWidth,
-                    height: window.innerHeight,
-                });
-            };
+        const handleResize = () => {
+            setScreenSize({
+                width: window.innerWidth,
+                height: window.innerHeight,
+            });
+        };
 
-            window.addEventListener('resize', handleResize);
+        window.addEventListener('resize', handleResize);
 
-            // Clean up the event listener when the component unmounts
-            return () => {
-                window.removeEventListener('resize', handleResize);
-            };
-        }
-    }, [window]);
+        // Clean up the event listener when the component unmounts
+        return () => {
+            window.removeEventListener('resize', handleResize);
+        };
+    }, []);
 
     return screenSize;
 };
