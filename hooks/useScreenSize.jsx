@@ -7,7 +7,7 @@ const useScreenSize = () => {
     });
 
     useEffect(() => {
-        if (window.type != 'undefined') {
+        if (window !== 'undefined') {
             const handleResize = () => {
                 setScreenSize({
                     width: window.innerWidth,
