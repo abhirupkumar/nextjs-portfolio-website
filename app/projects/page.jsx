@@ -6,7 +6,7 @@ import ProjectCard from '@/components/ProjectCard';
 import { projectData } from '@/projectData';
 
 // remove category duplicates
-const uniqueCategories = [...new Set(projectData.map((item) => item.category))];
+const uniqueCategories = ['all projects', 'next js', 'react js', 'react native'];
 
 const Projects = () => {
   const [categories, setCategories] = useState(uniqueCategories);

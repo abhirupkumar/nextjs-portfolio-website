@@ -27,7 +27,7 @@ export const projectData = [
     },
     {
         image: '/work/5.jpg',
-        category: 'React Native',
+        category: 'react native',
         name: 'Instant',
         description: "Instant is a real-time chatting application. Users can create and chat in Groups, send texts, images and even star messages. They can even reply to others messages.",
         link: 'https://expo.dev/@abhirup/Instant?serviceType=classic&distribution=expo-go',
@@ -35,9 +35,9 @@ export const projectData = [
     },
     {
         image: '/work/4.jpg',
-        category: 'React Native',
+        category: 'react native',
         name: 'Instagram Clone',
-        description: "This Instagram Clone is build using React Native(Expo). Users can post any picture/gif and can even comment to theirs as well as other's post. They can even set their profile image and username.",
+        description: "This Instagram Clone is build using react native(Expo). Users can post any picture/gif and can even comment to theirs as well as other's post. They can even set their profile image and username.",
         link: 'https://expo.dev/@abhirup/Instagram-Clone-Published-At-Expo',
         github: 'https://github.com/abhirupkumar/Instagram-clone',
     },
