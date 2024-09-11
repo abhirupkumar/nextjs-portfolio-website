@@ -1,12 +1,21 @@
 export const projectData = [
     {
+        image: '/work/prepiq.png',
+        category: 'next js',
+        name: 'PrepiQ',
+        description:
+            'PrepiQ is an Interview Prep SaaS application that gives you the most comprehensive interview preparation experience so that you can crush your next interview and land the next job offer.',
+        link: 'https://prepiq.vercel.app',
+        github: 'https://github.com/abhirupkumar/prepiq',
+    },
+    {
         image: '/work/1.png',
         category: 'next js',
         name: 'TestNix',
         description:
             'TestNix is a split testing SaaS tool for Next.js developers that also helps in monitoring impressions, clicks, and conversions.',
         link: 'https://testnix.vercel.app/',
-        github: 'https://github.com/abhirupkumar/testnix-npm',
+        github: 'https://github.com/abhirupkumar/testnix-web',
     },
     {
         image: '/work/2.png',
