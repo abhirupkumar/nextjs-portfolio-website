@@ -1,5 +1,23 @@
 export const projectData = [
     {
+        image: '/work/proxy.png',
+        category: 'next js',
+        name: 'Proxy',
+        description:
+            'Proxy is an AI-powered Instagram automation tool that enables businesses to automate DMs and comments using Groq AI and the Meta API.',
+        link: 'https://proxy-akb.vercel.app',
+        github: 'https://github.com/abhirupkumar/proxy',
+    },
+    {
+        image: '/work/static.png',
+        category: 'next js',
+        name: 'Static',
+        description:
+            'Static is a no-code website builder that allows users to create and publish SEO-optimized static sites effortlessly',
+        link: 'https://static-akb.vercel.app',
+        github: 'https://github.com/abhirupkumar/static',
+    },
+    {
         image: '/work/prepiq.png',
         category: 'next js',
         name: 'PrepiQ',
