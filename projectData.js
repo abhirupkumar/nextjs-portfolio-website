@@ -1,6 +1,6 @@
 export const projectData = [
     {
-        image: '/work/proxy.png',
+        image: '/work/insta-ai.png',
         category: 'next js',
         name: 'InstaAI',
         description:
