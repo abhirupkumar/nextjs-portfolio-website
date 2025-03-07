@@ -2,11 +2,11 @@ export const projectData = [
     {
         image: '/work/proxy.png',
         category: 'next js',
-        name: 'Proxy',
+        name: 'InstaAI',
         description:
-            'Proxy is an AI-powered Instagram automation tool that enables businesses to automate DMs and comments using Groq AI and the Meta API.',
-        link: 'https://proxy-akb.vercel.app',
-        github: 'https://github.com/abhirupkumar/proxy',
+            'InstaAI is an AI-powered Instagram automation tool that enables businesses to automate DMs and comments using Groq AI and the Meta API.',
+        link: 'https://insta-ai.vercel.app',
+        github: 'https://github.com/abhirupkumar/instaai',
     },
     {
         image: '/work/static.png',
